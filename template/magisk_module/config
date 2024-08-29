@@ -1,0 +1,18 @@
+{
+    "package":{
+        "name":"com.hackcatml.test",
+        "mode":{
+            "watch":false,
+            "dump":{
+                "dump_target":{
+                    "so_name":"libc.so",
+                    "regex":".*il2cpp\\.so$",
+                    "delay":3,
+                    "delay_section":0,
+                    "block_deletion":true,
+                    "on_load":false
+                }
+            }
+        }
+    }
+}

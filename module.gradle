@@ -1,0 +1,10 @@
+ext {
+    moduleLibraryName = "zygiskmemdump"
+    magiskModuleId = "zygisk_memdump"
+    moduleName = "ZygiskMemdump"
+    toolName = "zygisk-memdump"
+    moduleAuthor = "hackcatml"
+    moduleDescription = "Zygisk Module That Dumps So File From Process Memory"
+    moduleVersion = "v1.0.0"
+    moduleVersionCode = 1
+}
