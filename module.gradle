@@ -4,7 +4,7 @@ ext {
     moduleName = "ZygiskMemdump"
     toolName = "zygisk-memdump"
     moduleAuthor = "hackcatml"
-    moduleDescription = "Zygisk Module That Dumps So File From Process Memory"
-    moduleVersion = "v1.0.0"
+    moduleDescription = "A Zygisk Module That Dumps So File From Process Memory"
+    moduleVersion = "v1.0.1"
     moduleVersionCode = 1
 }

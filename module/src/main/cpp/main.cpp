@@ -31,6 +31,7 @@ std::string getPathFromFd(int fd) {
     char buf[PATH_MAX];
     std::string fdPath = "/proc/self/fd/" + std::to_string(fd);
     ssize_t len = readlink(fdPath.c_str(), buf, sizeof(buf) - 1);
+    close(fd);
     if (len != -1) {
         buf[len] = '\0';
         return {buf};
